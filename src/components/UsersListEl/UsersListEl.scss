@@ -1,0 +1,12 @@
+.UsersListEl{
+    list-style: none; 
+    counter-reset: li;
+    padding: 0;
+    width: 430px;
+}
+
+@media (max-width: 500px) {
+    .UsersListEl {
+        width: 225px;
+    }
+}
